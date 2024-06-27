@@ -24,6 +24,39 @@ fun main() {
 }
 
 ::  https://pl.kotl.in/KsyuLLgFk?theme=darcula ::
+/*
+
+fun main() {
+    var x=10
+    var h=x/2
+    var p=0
+    var q=0
+    var m : Int
+    var n : Int
+  
+    for(i in 1 until x){
+        for(j in 1 until x){
+            if(i <= h){
+                m= h-i;
+                n= h+i;
+            }
+            else{
+                m = i-h-1
+                n = 2*h - (i % h) + 1
+            }
+            if( (j <= m ) || ( j >= n ) ){
+                print(" ")
+            }
+            else{
+            	print("*")
+            }
+        }
+        println("")
+    }
+  
+}
+//Error at i=10
+*/
 
 //2.  Armstrong Number
 fun main() {
